@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #dcf3de; /* Color de fondo principal */
+    color: #333; /* Color de texto general */
+}
+
+h1 {
+    color: #758977; /* Color del encabezado principal (el más oscuro) */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #8fa391; /* Color de los enlaces */
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #758977; /* Color de los enlaces al pasar el ratón */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #c2d8c4;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #a9beaa;
+}
+
+th {
+    background-color: #a9beaa; 
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #c2d8c4; 
+}
+
+tr:hover {
+    background-color: #dcf3de; 
+}
+
+td a {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #8fa391;
+    border-radius: 5px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+td a:hover {
+    background-color: #8fa391;
+    color: #fff;
+}
